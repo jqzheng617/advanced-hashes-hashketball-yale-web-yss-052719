@@ -111,14 +111,22 @@ def num_points_scored(player)
   
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
-      binding.pry 
   #iterate over the hash to find the player
       return player[:points] if player[:player_name] = player
       end 
     end
 end 
-  binding.pry
-  0
+
+def shoe_size(player)
+  #return the shoe size of that player 
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player|
+      #iterate over each player stored in an array
+      return player[:shoe] if player[:player_name] = player
+      
+end 
+  
+ 
   
 
 
