@@ -120,15 +120,13 @@ end
 def shoe_size(player)
   #return the shoe size of that player 
   game_hash.each do |location, team_data|
-    binding.pry
     team_data[:players].each do |player|
       #iterate over each player stored in an array
       return player[:shoe] if player[:player_name] = player
-      binding.pry
       end 
     end 
 end 
-shoe_size(player)
+
   
  
   
