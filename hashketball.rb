@@ -113,11 +113,11 @@ def num_points_scored(player)
     team_data[:players].each do |player|
   #iterate over the hash to find the player
       return player[:points] if player[:player_name] = player
-  binding.pry 
-   
-  end 
-  
+      end 
+    end 
+  end
 end 
+  
 
 
 
