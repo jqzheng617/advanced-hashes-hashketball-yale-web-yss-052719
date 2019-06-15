@@ -107,7 +107,6 @@ def game_hash
 end 
 
 def num_points_scored(name)
-  
   game_hash.each do |location, team_data|
     team_data.each do |attributes, 
   binding.pry 
