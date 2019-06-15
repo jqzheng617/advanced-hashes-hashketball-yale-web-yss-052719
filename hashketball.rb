@@ -107,8 +107,12 @@ def game_hash
 end 
 
 def num_points_scored(name)
+  #takes in a player and return the player's points
+  
   game_hash.each do |location, team_data|
-    team_data[:players].each do |
+    team_data[:players].each do |player|
+  #iterate over the hash to find the player
+      return []
   binding.pry 
    
   end 
