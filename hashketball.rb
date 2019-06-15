@@ -114,8 +114,7 @@ def num_points_scored(player)
   #iterate over the hash to find the player
       return player[:points] if player[:player_name] = player
       end 
-    end 
-  end
+    end
 end 
   
 
