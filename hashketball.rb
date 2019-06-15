@@ -114,7 +114,6 @@ def num_points_scored(player)
       binding.pry
   #iterate over the hash to find the player
       return player[:points] if player[:player_name] = player
-      binding.pry
       end 
     end
 end 
