@@ -124,9 +124,9 @@ def shoe_size(player)
     team_data[:players].each do |player|
       #iterate over each player stored in an array
       return player[:shoe] if player[:player_name] = player
+      binding.pry
       end 
     end 
-    binding.pry 
 end 
   
  
